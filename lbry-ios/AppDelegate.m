@@ -5,6 +5,7 @@
 //  Created by Akinwale Ariwodola on 01/06/2018.
 //
 
+#import <React/RCTRootView.h>
 #import "AppDelegate.h"
 #import "MainViewController.h"
 #include "../../kivy-ios/dist/include/common/sdl2/SDL_main.h"
@@ -43,8 +44,16 @@
     SDL_main(0, nil);
     SDL_iPhoneSetEventPump(SDL_FALSE);
     
+    // initialize React Native root view
+    NSURL *bundleUrl = [[NSBundle mainBundle] URLForResource:@"index.ios" withExtension:@"jsbundle"];
+    RCTRootView *rootView = [[RCTRootView alloc] initWithBundleURL:bundleUrl
+                                                        moduleName:@"LBRYApp" initialProperties:nil launchOptions:nil];
+    
     // show main view
-    MainViewController *viewController = [[MainViewController alloc] initWithNibName:@"MainView" bundle:nil];
+    //MainViewController *viewController = [[MainViewController alloc] initWithNibName:@"MainView" bundle:nil];
+    MainViewController *viewController = [[MainViewController alloc] init];
+    viewController.view = rootView;
+    
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     self.window.rootViewController = viewController;
     [viewController release];

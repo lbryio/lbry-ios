@@ -49,6 +49,20 @@
 		6484B7A120C1226800062902 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6484B7A020C1226800062902 /* MainViewController.m */; };
 		6484B7A320C1369900062902 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6484B7A220C1369800062902 /* AVFoundation.framework */; };
 		6484B7A520C136A400062902 /* GameController.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6484B7A420C136A400062902 /* GameController.framework */; };
+		64F85B28210DCFC400B22433 /* libDoubleConversion.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 64F85B27210DCFC400B22433 /* libDoubleConversion.a */; };
+		64F85B2A210DCFC400B22433 /* libFolly.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 64F85B29210DCFC400B22433 /* libFolly.a */; };
+		64F85B2C210DCFC400B22433 /* libglog.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 64F85B2B210DCFC400B22433 /* libglog.a */; };
+		64F85B2E210DCFC400B22433 /* libReact.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 64F85B2D210DCFC400B22433 /* libReact.a */; };
+		64F85B30210DCFC400B22433 /* libyoga.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 64F85B2F210DCFC400B22433 /* libyoga.a */; };
+		64F85B34210DDD2000B22433 /* index.ios.jsbundle in Resources */ = {isa = PBXBuildFile; fileRef = 64F85B33210DDD1E00B22433 /* index.ios.jsbundle */; };
+		64F85B36210DDFB000B22433 /* assets in Resources */ = {isa = PBXBuildFile; fileRef = 64F85B35210DDFB000B22433 /* assets */; };
+		64F85B3D210DE00B00B22433 /* Metropolis-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 64F85B37210DDFFD00B22433 /* Metropolis-Medium.ttf */; };
+		64F85B3E210DE00B00B22433 /* FontAwesome.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 64F85B38210DDFFF00B22433 /* FontAwesome.ttf */; };
+		64F85B3F210DE00B00B22433 /* Metropolis-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 64F85B39210DE00100B22433 /* Metropolis-Bold.ttf */; };
+		64F85B40210DE00B00B22433 /* Feather.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 64F85B3A210DE00400B22433 /* Feather.ttf */; };
+		64F85B41210DE00B00B22433 /* Metropolis-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 64F85B3B210DE00600B22433 /* Metropolis-Regular.ttf */; };
+		64F85B42210DE00B00B22433 /* Metropolis-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 64F85B3C210DE00800B22433 /* Metropolis-SemiBold.ttf */; };
+		64F85B44210DEB3200B22433 /* libreact-native-video.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 64F85B43210DEB3200B22433 /* libreact-native-video.a */; };
 		74FC4519BE8A52928723F3BD /* libffi.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 776F4735AF8FD89B15D2A2EA /* libffi.a */; };
 		763E468093A6B581FB136AA8 /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5D134B7E96BC4F8CA2E29A08 /* OpenGLES.framework */; };
 		76E3404ABAC3FEB4A2210148 /* libkivy.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4D6646679B5C9694F71466E9 /* libkivy.a */; };
@@ -56,6 +70,7 @@
 		82144E24968888DD90546987 /* libsdl2_image.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C949404D8486ED51E7863BBD /* libsdl2_image.a */; };
 		9255440A8DB1ED47D6FEAC83 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A1CB403596228F246B0F9D23 /* QuartzCore.framework */; };
 		96334DE2901260FA1326FA28 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C820486F93F25A4037C1A4AD /* MobileCoreServices.framework */; };
+		A2C6C60CC4D2E5F575C9D932 /* libPods-lbry.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 196F3140AACC642180A77DEB /* libPods-lbry.a */; };
 		B5F14C1CADABEB6644915745 /* libpyobjus.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 14F74F4A953FC56F0C2C36A8 /* libpyobjus.a */; };
 		BD3F447385625DC5E0566EBE /* CoreMotion.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4E03432BA4C60C15163576F9 /* CoreMotion.framework */; };
 		D0474458869A101539DB5A09 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 622C4DB6B6A2A8672B21818C /* AudioToolbox.framework */; };
@@ -65,6 +80,7 @@
 /* Begin PBXFileReference section */
 		01532DA9137C099F0076F6BF /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon.png; sourceTree = "<group>"; };
 		14F74F4A953FC56F0C2C36A8 /* libpyobjus.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libpyobjus.a; path = "../../kivy-ios/dist/lib/libpyobjus.a"; sourceTree = SOURCE_ROOT; };
+		196F3140AACC642180A77DEB /* libPods-lbry.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-lbry.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1D6058910D05DD3D006BFB54 /* lbry.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = lbry.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		2CB5F34517D5233A006187AB /* bridge.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = bridge.h; sourceTree = SOURCE_ROOT; };
@@ -109,10 +125,26 @@
 		6484B7A020C1226800062902 /* MainViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
 		6484B7A220C1369800062902 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.4.sdk/System/Library/Frameworks/AVFoundation.framework; sourceTree = DEVELOPER_DIR; };
 		6484B7A420C136A400062902 /* GameController.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GameController.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.4.sdk/System/Library/Frameworks/GameController.framework; sourceTree = DEVELOPER_DIR; };
+		64F85B27210DCFC400B22433 /* libDoubleConversion.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libDoubleConversion.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		64F85B29210DCFC400B22433 /* libFolly.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libFolly.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		64F85B2B210DCFC400B22433 /* libglog.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libglog.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		64F85B2D210DCFC400B22433 /* libReact.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libReact.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		64F85B2F210DCFC400B22433 /* libyoga.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libyoga.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		64F85B31210DDC7100B22433 /* assets */ = {isa = PBXFileReference; lastKnownFileType = folder; path = assets; sourceTree = "<group>"; };
+		64F85B33210DDD1E00B22433 /* index.ios.jsbundle */ = {isa = PBXFileReference; lastKnownFileType = text; path = index.ios.jsbundle; sourceTree = "<group>"; };
+		64F85B35210DDFB000B22433 /* assets */ = {isa = PBXFileReference; lastKnownFileType = folder; path = assets; sourceTree = "<group>"; };
+		64F85B37210DDFFD00B22433 /* Metropolis-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Metropolis-Medium.ttf"; path = "assets/fonts/Metropolis-Medium.ttf"; sourceTree = "<group>"; };
+		64F85B38210DDFFF00B22433 /* FontAwesome.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = FontAwesome.ttf; path = assets/fonts/FontAwesome.ttf; sourceTree = "<group>"; };
+		64F85B39210DE00100B22433 /* Metropolis-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Metropolis-Bold.ttf"; path = "assets/fonts/Metropolis-Bold.ttf"; sourceTree = "<group>"; };
+		64F85B3A210DE00400B22433 /* Feather.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = Feather.ttf; path = assets/fonts/Feather.ttf; sourceTree = "<group>"; };
+		64F85B3B210DE00600B22433 /* Metropolis-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Metropolis-Regular.ttf"; path = "assets/fonts/Metropolis-Regular.ttf"; sourceTree = "<group>"; };
+		64F85B3C210DE00800B22433 /* Metropolis-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Metropolis-SemiBold.ttf"; path = "assets/fonts/Metropolis-SemiBold.ttf"; sourceTree = "<group>"; };
+		64F85B43210DEB3200B22433 /* libreact-native-video.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = "libreact-native-video.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6F334D5ABE6A667194F22D46 /* libios.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libios.a; path = "../../kivy-ios/dist/lib/libios.a"; sourceTree = SOURCE_ROOT; };
 		776F4735AF8FD89B15D2A2EA /* libffi.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libffi.a; path = "../../kivy-ios/dist/lib/libffi.a"; sourceTree = SOURCE_ROOT; };
 		7E2B4012A581F4EBCED8E0F5 /* libfreetype.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libfreetype.a; path = "../../kivy-ios/dist/lib/libfreetype.a"; sourceTree = SOURCE_ROOT; };
 		8D1107310486CEB800E47090 /* lbry-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "lbry-Info.plist"; plistStructureDefinitionIdentifier = "com.apple.xcode.plist.structure-definition.iphone.info-plist"; sourceTree = "<group>"; };
+		8E6CD596E024788386ED182D /* Pods-lbry.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-lbry.debug.xcconfig"; path = "Pods/Target Support Files/Pods-lbry/Pods-lbry.debug.xcconfig"; sourceTree = "<group>"; };
 		95854603AE9182C63C3EF7D5 /* libsdl2.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libsdl2.a; path = "../../kivy-ios/dist/lib/libsdl2.a"; sourceTree = SOURCE_ROOT; };
 		A1CB403596228F246B0F9D23 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = "<absolute>"; };
 		A3034879BF61804CA39C5C38 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/CoreGraphics.framework; sourceTree = "<absolute>"; };
@@ -122,6 +154,7 @@
 		C5E64F768264087E92C15ECE /* ImageIO.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ImageIO.framework; path = /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/ImageIO.framework; sourceTree = "<absolute>"; };
 		C820486F93F25A4037C1A4AD /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/MobileCoreServices.framework; sourceTree = "<absolute>"; };
 		C949404D8486ED51E7863BBD /* libsdl2_image.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libsdl2_image.a; path = "../../kivy-ios/dist/lib/libsdl2_image.a"; sourceTree = SOURCE_ROOT; };
+		F0FCF5A494EE13B8039AA699 /* Pods-lbry.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-lbry.release.xcconfig"; path = "Pods/Target Support Files/Pods-lbry/Pods-lbry.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -129,6 +162,12 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				64F85B44210DEB3200B22433 /* libreact-native-video.a in Frameworks */,
+				64F85B28210DCFC400B22433 /* libDoubleConversion.a in Frameworks */,
+				64F85B2A210DCFC400B22433 /* libFolly.a in Frameworks */,
+				64F85B2C210DCFC400B22433 /* libglog.a in Frameworks */,
+				64F85B2E210DCFC400B22433 /* libReact.a in Frameworks */,
+				64F85B30210DCFC400B22433 /* libyoga.a in Frameworks */,
 				6484B7A320C1369900062902 /* AVFoundation.framework in Frameworks */,
 				D0474458869A101539DB5A09 /* AudioToolbox.framework in Frameworks */,
 				2AF14BF6B986E9F5E921841E /* ImageIO.framework in Frameworks */,
@@ -161,6 +200,7 @@
 				6484B78F20C10E8800062902 /* libsdl2_mixer.a in Frameworks */,
 				0D4F4378B339AD7BACA6FA6B /* libsdl2_ttf.a in Frameworks */,
 				640019EE20C28AB200E0A506 /* libtwisted.a in Frameworks */,
+				A2C6C60CC4D2E5F575C9D932 /* libPods-lbry.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -187,11 +227,20 @@
 		29B97314FDCFA39411CA2CEA /* CustomTemplate */ = {
 			isa = PBXGroup;
 			children = (
+				64F85B3A210DE00400B22433 /* Feather.ttf */,
+				64F85B38210DDFFF00B22433 /* FontAwesome.ttf */,
+				64F85B39210DE00100B22433 /* Metropolis-Bold.ttf */,
+				64F85B37210DDFFD00B22433 /* Metropolis-Medium.ttf */,
+				64F85B3B210DE00600B22433 /* Metropolis-Regular.ttf */,
+				64F85B3C210DE00800B22433 /* Metropolis-SemiBold.ttf */,
+				64F85B33210DDD1E00B22433 /* index.ios.jsbundle */,
+				64F85B31210DDC7100B22433 /* assets */,
 				080E96DDFE201D6D7F000001 /* Classes */,
 				29B97315FDCFA39411CA2CEA /* Sources */,
 				29B97317FDCFA39411CA2CEA /* Resources */,
 				29B97323FDCFA39411CA2CEA /* Frameworks */,
 				19C28FACFE9D520D11CA2CBB /* Products */,
+				978D60A608C055C6CC166295 /* Pods */,
 			);
 			name = CustomTemplate;
 			sourceTree = "<group>";
@@ -213,6 +262,7 @@
 		29B97317FDCFA39411CA2CEA /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				64F85B35210DDFB000B22433 /* assets */,
 				59738ABA1A8E19AA001B2C0C /* Images.xcassets */,
 				59738AB61A8BB71F001B2C0C /* include */,
 				59738AB41A8BB5D8001B2C0C /* lib */,
@@ -236,6 +286,12 @@
 		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				64F85B43210DEB3200B22433 /* libreact-native-video.a */,
+				64F85B27210DCFC400B22433 /* libDoubleConversion.a */,
+				64F85B29210DCFC400B22433 /* libFolly.a */,
+				64F85B2B210DCFC400B22433 /* libglog.a */,
+				64F85B2D210DCFC400B22433 /* libReact.a */,
+				64F85B2F210DCFC400B22433 /* libyoga.a */,
 				640019ED20C28AB000E0A506 /* libtwisted.a */,
 				640019EB20C28A9900E0A506 /* libminiupnpc.a */,
 				640019E920C28A7A00E0A506 /* libcryptography.a */,
@@ -269,8 +325,18 @@
 				5D8145F89FA2B0650079E1F7 /* libpython.a */,
 				95854603AE9182C63C3EF7D5 /* libsdl2.a */,
 				B05349ADB2C6E4ED29FB1014 /* libsdl2_ttf.a */,
+				196F3140AACC642180A77DEB /* libPods-lbry.a */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		978D60A608C055C6CC166295 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8E6CD596E024788386ED182D /* Pods-lbry.debug.xcconfig */,
+				F0FCF5A494EE13B8039AA699 /* Pods-lbry.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -280,7 +346,8 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "lbry" */;
 			buildPhases = (
-				113D17E2153E3DB5001310A5 /* ShellScript */,
+				0287EDEB90AD348B5CEA6A69 /* [CP] Check Pods Manifest.lock */,
+				113D17E2153E3DB5001310A5 /* Run Script */,
 				113D17E2153E3DB5001310A6 /* ShellScript */,
 				113D17E2153E3DB5001310A7 /* ShellScript */,
 				1D60588D0D05DD3D006BFB54 /* Resources */,
@@ -315,6 +382,7 @@
 				German,
 			);
 			mainGroup = 29B97314FDCFA39411CA2CEA /* CustomTemplate */;
+			productRefGroup = 19C28FACFE9D520D11CA2CBB /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
@@ -328,6 +396,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				64F85B34210DDD2000B22433 /* index.ios.jsbundle in Resources */,
+				64F85B36210DDFB000B22433 /* assets in Resources */,
+				64F85B3D210DE00B00B22433 /* Metropolis-Medium.ttf in Resources */,
+				64F85B3E210DE00B00B22433 /* FontAwesome.ttf in Resources */,
+				64F85B3F210DE00B00B22433 /* Metropolis-Bold.ttf in Resources */,
+				64F85B40210DE00B00B22433 /* Feather.ttf in Resources */,
+				64F85B41210DE00B00B22433 /* Metropolis-Regular.ttf in Resources */,
+				64F85B42210DE00B00B22433 /* Metropolis-SemiBold.ttf in Resources */,
 				59738AE41A8E62D6001B2C0C /* Default@2x.png in Resources */,
 				6484B79E20C121CB00062902 /* MainView.xib in Resources */,
 				59738AB51A8BB5D8001B2C0C /* lib in Resources */,
@@ -351,13 +427,32 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		113D17E2153E3DB5001310A5 /* ShellScript */ = {
+		0287EDEB90AD348B5CEA6A69 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-lbry-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		113D17E2153E3DB5001310A5 /* Run Script */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 12;
 			files = (
 			);
 			inputPaths = (
 			);
+			name = "Run Script";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -409,6 +504,7 @@
 /* Begin XCBuildConfiguration section */
 		1D6058940D05DD3E006BFB54 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8E6CD596E024788386ED182D /* Pods-lbry.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -421,11 +517,15 @@
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "";
-				GCC_PREPROCESSOR_DEFINITIONS = "DEBUG=1";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
 				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
 				HEADER_SEARCH_PATHS = (
 					"/Users/akinwale/Dev/Python/kivy-ios/dist/root/python/include",
 					"/Users/akinwale/Dev/Python/kivy-ios/dist/include/common/sdl2",
+					"$(inherited)",
 				);
 				INFOPLIST_FILE = "lbry-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
@@ -435,7 +535,10 @@
 					"\"$(SRCROOT)/../../kivy-ios/dist/lib\"",
 				);
 				ONLY_ACTIVE_ARCH = NO;
-				OTHER_LDFLAGS = "-all_load";
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-all_load",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = org.kivy.lbry;
 				PRODUCT_NAME = lbry;
 				PROVISIONING_PROFILE = "";
@@ -449,6 +552,7 @@
 		};
 		1D6058950D05DD3E006BFB54 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F0FCF5A494EE13B8039AA699 /* Pods-lbry.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -460,10 +564,12 @@
 				FRAMEWORK_SEARCH_PATHS = "/Users/akinwale/Dev/Python/kivy-ios/dist/frameworks";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "";
+				GCC_PREPROCESSOR_DEFINITIONS = "$(inherited)";
 				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
 				HEADER_SEARCH_PATHS = (
 					"\"$(PROJECT_DIR)/../build/include\"",
 					"\"$(PROJECT_DIR)/../build/python/include\"",
+					"$(inherited)",
 				);
 				INFOPLIST_FILE = "lbry-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
@@ -472,7 +578,10 @@
 					"\"$(PROJECT_DIR)/../build/lib\"",
 					"\"$(SRCROOT)/../../kivy-ios/dist/lib\"",
 				);
-				OTHER_LDFLAGS = "-all_load";
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-all_load",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = org.kivy.lbry;
 				PRODUCT_NAME = lbry;
 				PROVISIONING_PROFILE = "";

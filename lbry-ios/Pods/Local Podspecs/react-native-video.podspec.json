@@ -1,0 +1,22 @@
+{
+  "name": "react-native-video",
+  "version": "3.1.0",
+  "summary": "A <Video /> element for react-native",
+  "authors": "Brent Vatne <brentvatne@gmail.com> (https://github.com/brentvatne)",
+  "homepage": "https://github.com/brentvatne/react-native-video",
+  "license": "MIT",
+  "platforms": {
+    "ios": "7.0",
+    "tvos": "9.0"
+  },
+  "source": {
+    "git": "https://github.com/brentvatne/react-native-video.git",
+    "tag": "3.1.0"
+  },
+  "source_files": "ios/*.{h,m}",
+  "dependencies": {
+    "React": [
+
+    ]
+  }
+}

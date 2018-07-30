@@ -1,3 +1,6 @@
 lbry.xcodeproj/*.backup
 lbry.xcodeproj/project.xcworkspace/
 lbry.xcodeproj/xcuserdata/
+lbry.xcworkspace/xcuserdata/
+index.ios.jsbundle
+index.ios.jsbundle.meta
